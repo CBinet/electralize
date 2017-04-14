@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^1.6.2",
-    "jquery": "^3.2.1",
-    "materialize-css": "^0.98.1"
+    "electron": "^1.6.2"
   }
 }
