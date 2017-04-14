@@ -26,7 +26,7 @@ Download the npm module
 ```sh
 npm install electralize
 ```
-
+Extract the content of the electralize module to the current folder then :
 Launch the application
 ```sh
 npm start
