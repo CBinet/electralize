@@ -44,7 +44,11 @@ bind events on resizing and such in this file. <br>
 ### Index.html
 This is your normal index.html file. Use it like your would
 normally do, like to place elements in the DOM, render
-templates, import headers, etc.
+templates, import headers, etc. Example, to add your own stylesheets :
+**index.html**
+```html
+ <link rel="stylesheet" href="./css/styles.css">
+```
 
 ### App.js
 This is where you do your application logic : 
@@ -62,11 +66,4 @@ with the **require.js** library : <br>
 var app = require('./js/app.js');
 ```
 
-### Adding CSS
-If you want to import you own stylesheets, you
-need to include them in the **index.html** file : <br>
 
-**index.html**
-```html
- <link rel="stylesheet" href="./css/styles.css">
-```
