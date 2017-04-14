@@ -12,7 +12,7 @@ git clone https://github.com/CBinet/Electralize.git
 
 Install dependencies
 ```sh
-npm install electralize
+npm install
 ```
 
 Launch the application
