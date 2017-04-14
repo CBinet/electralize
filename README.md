@@ -23,8 +23,8 @@ npm start
 
 ### Main.js
 This is what would usually be your browser
-in a normal web application. Change the window size
-or bind event on resizing and such in this file.
+in a normal web application. You can change the window size, 
+bind events on resizing and such in this file. <br><br>
 *Note : You can't access DOM elements in* **main.js**. 
 
 ### Index.html
@@ -36,18 +36,21 @@ templates, import headers, etc.
 This is where you do your application logic : 
 Bind events on DOM elements, do HTTP requests, etc.
 You can import any other javascript file, either with
-the *script* tag, in **index.html** or with *require* :
+the *script* tag, in your **index.html** file or 
+with the **require.js** library :
+##### index.html
 ```html
 <script src="./js/app.js"></script>
 ```
-or
+##### require.js
 ```javascript
 var app = require('./js/app.js');
 ```
 
 ### CSS
 If you want to import you own stylesheets, you
-need to include them in the **index.js** file :
+need to include them in the **index.html** file :
+###### index.html
 ```html
  <link rel="stylesheet" href="./css/styles.css">
 ```
