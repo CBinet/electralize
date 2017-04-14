@@ -4,17 +4,31 @@ Electron application using Materialize css.
 
 ## Setup
 
-### Clone the repository
+### Install with git
+
+Clone the repository
 ```sh
 git clone https://github.com/Electralize.git
 ```
 
-### Install dependencies
+Install dependencies
 ```sh
 npm install
 ```
 
-### Launch the application
+Launch the application
+```sh
+npm start
+```
+
+### Install with npm
+
+Download the npm module
+```sh
+npm install electralize
+```
+
+Launch the application
 ```sh
 npm start
 ```
@@ -36,7 +50,7 @@ templates, import headers, etc.
 This is where you do your application logic : 
 Bind events on DOM elements, do HTTP requests, etc.
 You can import any other javascript file, either with
-the *script* tag, in your **index.html** file or 
+the html *script* tag in your **index.html** file or 
 with the **require.js** library : <br>
 
 **index.html**
@@ -48,7 +62,7 @@ with the **require.js** library : <br>
 var app = require('./js/app.js');
 ```
 
-### CSS
+### Adding CSS
 If you want to import you own stylesheets, you
 need to include them in the **index.html** file : <br>
 
