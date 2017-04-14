@@ -8,7 +8,7 @@ Electron application using Materialize css.
 
 Clone the repository
 ```sh
-git clone https://github.com/Electralize.git
+git clone https://github.com/CBinet/Electralize.git
 ```
 
 Install dependencies
