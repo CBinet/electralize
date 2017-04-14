@@ -44,7 +44,7 @@ bind events on resizing and such in this file. <br>
 ### Index.html
 This is your normal index.html file. Use it like your would
 normally do, like to place elements in the DOM, render
-templates, import headers, etc. Example, to add your own stylesheets :
+templates, import headers, etc. Example, to add your own stylesheets : <br>
 **index.html**
 ```html
  <link rel="stylesheet" href="./css/styles.css">
