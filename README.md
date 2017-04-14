@@ -48,7 +48,7 @@ templates, import headers, etc.
 
 ### App.js
 This is where you do your application logic : 
-Bind events on DOM elements, do HTTP requests, etc.
+Bind events on DOM elements, do HTTP requests, etc. <br>
 You can import any other javascript file, either with
 the html *script* tag in your **index.html** file or 
 with the **require.js** library : <br>
