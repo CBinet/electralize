@@ -24,7 +24,7 @@ npm start
 ### Main.js
 This is what would usually be your browser
 in a normal web application. You can change the window size, 
-bind events on resizing and such in this file. <br><br>
+bind events on resizing and such in this file. <br>
 *Note : You can't access DOM elements in* **main.js**. 
 
 ### Index.html
